@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "babel-jest": "^15.0.0",
+    "enzyme": "^2.4.1",
     "react-scripts": "0.6.1"
   },
   "dependencies": {

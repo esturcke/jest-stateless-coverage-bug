@@ -7,9 +7,13 @@ class Bar extends Component {
   render() { return <div>Bar</div> }
 }
 
-class App extends Component {
-  render() { return <div><Foo/><Bar/></div> }
+class Baz extends Component {
+  render() { return <div><Foo/></div> }
 }
 
-export { Foo, Bar }
+class App extends Component {
+  render() { return <div><Foo/><Bar/><Baz/></div> }
+}
+
+export { Foo, Bar, Baz }
 export default App;

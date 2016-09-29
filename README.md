@@ -1,5 +1,7 @@
 ## Bug
 
+[Jest issue #1824](https://github.com/facebook/jest/issues/1824)
+
 When mounting a stateless function component with enzyme, the component name is
 preserved when running `jest`, but not when running `jest --coverage`. This is
 causing unit tests to fail when generating coverage that otherwise succeed.

@@ -1,5 +1,5 @@
 {
-  "name": "jest-enzyme-test",
+  "name": "jest-stateless-coverage-bug",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
